@@ -15,4 +15,4 @@ INSTRUCTIONS:
 
 5 - you are done!
 
-Why do I need to use a custom library in order to get this sketch to work? - the library can set timers (up to 15 at the same time by default) without using the delay() function, which would stop the Arduino loop; this way it can accept different commands at the same time and be reative to connection checks or other stuff.
+Why do I need to use a custom library in order to get this sketch to work? - the library can set timers (up to 15 at the same time by default) without using the delay() function, which would stop the Arduino loop; this way it can accept different commands at the same time and be reactive to connection checks or other stuff.
