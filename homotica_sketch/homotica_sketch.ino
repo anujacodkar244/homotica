@@ -147,7 +147,7 @@ void processSingleRunnable(String msg) {
       digitalWrite(PIN, MLOW);
     }
     else if (relayMode == 2) {
-      homotica.pushPin(PIN, del, MLOW);
+      homotica.pushPin(PIN, del, digitalRead(PIN));
     }
     else if (relayMode == 3) {
       digitalWrite(PIN, !digitalRead(PIN));
