@@ -1,6 +1,6 @@
 # Homotica
 This repository contains the sketch and the library required by "Homotica" Android app.
-You can find the app at the following link: 
+You can find the app at the following link: https://play.google.com/store/apps/details?id=com.vetru.app.homotica
 
 ## INSTRUCTIONS:
   1 - download the repository, and unzip it.
